@@ -16,6 +16,7 @@ public class DecToIEEE {
      * @param args
      */
     public static void main(String[] args) {
+        System.out.println("BY Muazzam Shaheryar\nCSC3100");
         boolean checker = false;
         while (!checker)
         {
