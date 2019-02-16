@@ -121,7 +121,7 @@ public class DecToIEEE {
         String bPoint = integerSideToBinary(beforePoint);
 
 
-        //the following code from line 123 -131 is done to set up the fractional side of the value received
+        //the following code from line 124 -132 is done to set up the fractional side of the value received
         int length = String.valueOf(afterPoint).length();
         double correctDecPlace =1.00;
         for(int u = 0; u<length;u++)
@@ -264,7 +264,7 @@ public class DecToIEEE {
         String bPoint = integerSideToBinary(beforePoint);
 
 
-        //the following code from line 267 -274 is done to set up the fractional side of the value received
+        //the following code from line 268 -275 is done to set up the fractional side of the value received
         int length = String.valueOf(afterPoint).length();
         double correctDecPlace =1.00;
         for(int u = 0; u<length;u++)
